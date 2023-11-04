@@ -1,0 +1,409 @@
+*{
+font-family: 'Work Sans', sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navitems ul{
+display: flex;
+justify-content: end;
+list-style: none;
+}
+.navitems ul li{
+    padding: 10px;
+}
+.navitems ul li a:hover{
+    color: #00b39b;
+    cursor: pointer;
+}
+.navitems ul li a{
+    text-decoration: none;
+    color: #ababab;
+}
+#about{
+color: #00b39b;;
+}
+header img{
+    width: 268px;
+    height: 33px;
+    align-items: center;
+    margin-top: 20px;
+}
+/* this is the styling of the logo at the middle of the body webpage */
+.section img{
+display: block;
+margin: auto;
+width: 40px;
+height: 40px;
+margin-top: 100px;
+
+}
+#headingtext{
+    font-size: 33px;
+    color: #00b39b;
+    text-align: center;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 30px;
+
+}
+/* this is for the article part after the logo at the middle */
+.articleclass{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+    }
+    /* this section is for the three colored boxes */
+    .boxes{
+        display:flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 80px;
+    
+    }
+    
+    .box1{
+        background: #00b39b ;
+        width: 330px;
+        height: 330px;
+        border-radius: 10px;
+        text-align: start;
+        flex: 0.25;   
+    }
+    
+    .box2{
+        background:#3d83df ;
+        width: 330px;
+        height: 330px;
+        border-radius: 10px;
+        flex: 0.22;
+        
+    }
+    .box3{
+        background: #333 ;
+        width: 330px;
+        height: 330px;
+        border-radius: 10px;
+        flex: 0.25;
+        
+    }
+    /* this for the patient icon on the first box */
+    .iconimg{
+        margin-top: 40px;
+    margin-left: 40px;
+    }
+    /* for the heading text in the first box */
+    #margin{
+        margin-left: 40px;
+        line-height: 1.5;
+        margin-top: 10px;
+        font-family:'Work Sans', sans-serif ;
+        font-size: 30px;
+        color: white;
+    }
+    /* styling for the option values */
+        #select{
+    background: #00b39b;
+border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 70px;
+    }
+   /* for the paragraph inside the first box */
+#para{
+    color: white;
+font-family: inherit;
+    font-size: 20px;
+margin-left: 40px;
+margin-top: 10px;
+    
+}
+
+#select2{
+    background: #3d83df;
+    border: none;
+text-decoration:solid;
+color: white;
+font-size: 20px;
+margin-left: 35px;
+margin-top:70px;
+text-decoration: underline;
+}
+#select3{
+    background:#333;
+    border: none;
+text-decoration:solid;
+color: white;
+font-size: 20px;
+margin-left: 35px;
+margin-top:20px;
+text-decoration: underline;
+margin-bottom: 10px;
+}
+#select4{
+    background:#333;
+    border: none;
+text-decoration:solid;
+color: white;
+font-size: 20px;
+margin-left: 35px;
+margin-top:17px;
+text-decoration: underline;
+
+}
+.global{
+    display: flex;
+    justify-content: space-between;
+}
+.global{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fewicons img{
+
+    max-width: 80px;
+    max-height:  80px;
+}
+.fewicons{
+    display: grid;
+grid-template-columns: 100px 100px 100px;
+padding: 20px;
+gap: 35px;
+margin: auto;
+}
+/* this section is for the various icons */
+.global #global{
+    color: #00b39b;
+    margin-left: 250px;
+    line-height: 1.5;
+    font-size: 22px;
+    margin-top: 25px;
+}
+.item7{
+    margin-top: 20px;
+}
+.item9{
+    margin-top: 15px;
+}
+/* this section follows immediately after the various icons, the four square boxes 
+and the large doc planner logo */
+.greenbarrier{
+    background: #d0faf4;
+    margin-top: 30px;
+}
+    .boxandlogo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #boxone{
+        background: #fff;
+        width: 220px;
+        height: 250px;
+        text-align: center;
+        margin-top: 60px;
+        color: #747474;
+
+
+    }
+    #boxtwo{
+        background: #fff;
+        width: 220px;
+        height: 250px;
+        text-align: center; 
+        margin-top: 35px; 
+        margin-left: 40px;
+        color: #747474;
+    
+    }
+    #boxthree{
+        background: #fff;
+        width: 220px;
+        height: 250px;
+        text-align: center;
+        margin-top: 18px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        color: #747474;
+        
+    }
+    #boxfour{
+        background: #fff;
+        width: 220px;
+        height: 250px;
+        text-align: center;
+        margin-bottom: 45px;
+        margin-left: 40px;
+        margin-top: -5px;
+        color: #747474;
+        
+    }
+    /* this section is for the various cities */
+    .squareboxes{
+        display: grid;
+        grid-template-columns: 225px 100px;
+        margin-right: 200px;
+    }
+    .boximage{
+        width: 24px;
+        margin-top: 30px;
+    }
+    .boxandlogo p{
+        font-size: 12px;
+        padding: 10px;
+        
+    }
+    #boxtwo img{
+        margin-top: 50px;
+    }
+    #boxthree img{
+        margin-top: 50px;
+    }
+    #boxfour img{
+        margin-top: 50px;
+    }
+    #boxone h2{
+        color: #00b39b;
+        margin-top: 15px;
+        font-family: work sans, arial, sans-serif;
+        }
+        #boxtwo h2{
+            color: #00b39b;
+            margin-top: 15px;
+            font-family: work sans, arial, sans-serif;  
+        }
+        #boxthree h2{
+            color: #00b39b;
+            margin-top: 15px;
+            font-family: work sans, arial, sans-serif; 
+        }
+        #boxfour h2{
+            color: #00b39b;
+            margin-top: 15px;
+            font-family: work sans, arial, sans-serif;  
+        }
+        .boxandlogo #separate{
+            color: #00b39b;
+            margin-top: 70px;
+            font-family: arial;
+            line-height: 1.2;
+            font-size: 30px;
+        }
+
+        .boxandlogo .ptag{
+            font-size: 15px;
+            margin-bottom: 53px;
+            color: #747474;
+        } 
+        
+        .centertext{
+            width: auto;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .centertext p{
+            margin-top: 30px;
+            color: #747474;
+            line-height: 1.2;
+        }
+        .centertext #improve{
+            color: #00b39b;
+            font-family: arial;
+            font-size: 30px;
+            line-height: 1.3;
+            }
+            /* styling of the city images */
+            .cities{
+                display: grid;
+                grid-template-columns: 320px 320px 320px;
+                justify-content: center;
+                margin-top: 120px;
+                
+                
+            }
+            .buttons {
+                display: flex;
+                justify-content: space-around;
+                margin: 16px;
+                color: #747474;
+            }
+            .btn{
+                background: #3d83df;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 10px;
+                cursor: pointer;
+            }
+            .image{
+                margin-bottom: 30px;
+            }
+        .image:hover{
+        box-shadow: 2px 2px 5px 5px #b6b2b2;
+        }
+        /* this is the footer section */
+        .footer{
+            text-align: center;
+        }
+        .footer .action{
+            margin-top: 100px;
+            line-height: 1.42857143;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #747474;
+        }
+        .button{
+            background: #3d83df;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            cursor: pointer;
+            
+        }
+        .footer .countries{
+            margin-top: 100px;
+            
+        }
+        .countries a{
+            text-decoration: none;
+            font-size: small;  
+        }
+        .countries a:hover{
+            text-decoration: underline;
+        }
+        .countries p{
+            font-size: small;
+            color: #747474;
+            margin-top: 30px;
+        }
+        .end{
+            margin-top: 20px;
+            color: #747474;
+            font-size: 12px;
+            text-align: center;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 20px;
+            
+            
+        }
+
